@@ -15,6 +15,10 @@ function handleCheck(e) {
         inBetween = !inBetween;
         console.log("Starting to check them inBetween");
       }
+
+      if (inBetween) {
+        checkbox.checked = true;
+      }
     });
   }
   lastChecked = this;
